@@ -6,7 +6,7 @@ import { deleteWorkoutProgram, deleteExercise } from '@/services/actions';
 import "../../styles/styles.css";
 
 
-export default function WorkoutProgramList({ workoutPrograms, userRole }: { workoutPrograms: WorkoutProgram[] | undefined, userRole: string }) {
+export default function WorkoutProgramList({ workoutPrograms, userRole }: { workoutPrograms: WorkoutProgram[] | undefined, userRole?: string }) {
   const [deletingWorkoutProgramId, setDeletingWorkoutProgramId] = useState<number | null>(null);
   const [deletingExerciseId, setDeletingExerciseId] = useState<number | null>(null);
 
