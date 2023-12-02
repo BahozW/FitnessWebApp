@@ -8,10 +8,6 @@
 - [Functional Requirements](#functional-requirements)
 
 ## Demo Video
-
-[![Demo Video](link_to_your_thumbnail_image_or_gif)](https://youtu.be/_EC_afN7Nbc)
-
-
 A video demonstrating the functionality of the Fitness Web App is available [here](https://youtu.be/_EC_afN7Nbc). In this video, you can see how users can log in, personal trainers create workout programs, add exercises, and clients access their workout programs.
 
 
