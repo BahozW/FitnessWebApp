@@ -1,0 +1,189 @@
+body, html {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .site-header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navigation a {
+    color: orange;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #fff;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 50px;
+    color: #333;
+  }
+  
+  .welcome-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .welcome-title {
+    color: black;
+    margin: 0;
+  }
+  
+  .user-role {
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .welcome-message {
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .dashboard-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-link:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+
+.navItem {
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navItem:hover {
+  background-color: #f0f0f0; 
+}
+
+.clients-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.section-container {
+  width: 100%;
+  max-width: 800px; 
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.client-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.delete-button {
+  background-color: #ff4d4d; 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a; 
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: 'Inter', sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #111; 
+  color: orange; 
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9; 
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f3f3f3; 
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #111; 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 4px; 
+  font-size: 16px; 
+}
+
+.form-input {
+  padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; 
+  width: 100%; 
+}
+
+.form-error {
+  color: red; 
+  font-size: 14px; 
+  margin-top: 4px; 
+}
