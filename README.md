@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Demo Video](#demo-video)
 - [Introduction](#introduction)
-- [Backend API](#backend-api)
 - [Technology Requirements](#technology-requirements)
 - [Functional Requirements](#functional-requirements)
 
